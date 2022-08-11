@@ -31,9 +31,6 @@ export default function Form ( {handleAdd, transactionsList, setTransactionsList
         setAmount("");
     };
 
-
-
-
     return (
         <>
             <C.Container>

@@ -6,7 +6,6 @@ import {
     FaTrash,
 } from "react-icons/fa";
 
-
 export default function GridItem ({item, onDelete}) {
     return(
         
@@ -19,7 +18,6 @@ export default function GridItem ({item, onDelete}) {
                 ): (
                 <FaRegArrowAltCircleUp color="green" />
                 )}
-            
             </C.Td>
             <C.Td alingCenter>
                 <FaTrash onClick={() =>onDelete(item.id)} />
